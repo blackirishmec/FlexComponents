@@ -107,16 +107,6 @@ export default [
 					],
 					pathGroups: [
 						{
-							pattern: 'encore.dev/**',
-							group: 'external',
-							position: 'before',
-						},
-						{
-							pattern: '@prisma/**',
-							group: 'external',
-							position: 'before',
-						},
-						{
 							pattern: '@/types/**',
 							group: 'type',
 							position: 'after',
