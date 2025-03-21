@@ -1,0 +1,39 @@
+{
+	"name": "flexcomponents",
+	"version": "1.0.0",
+	"description": "A reusable TypeScript React component library containing Flexbox layout compatible Row and Col.",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"build": "tsc",
+		"lint": "eslint . --ext .ts,.tsx"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/blackirishmec/FlexComponents.git"
+	},
+	"keywords": [],
+	"author": "Michael Coughlin <mike.e.coughlin@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/blackirishmec/FlexComponents/issues"
+	},
+	"homepage": "https://github.com/blackirishmec/FlexComponents#readme",
+	"dependencies": {
+		"react": "^19.0.0"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.22.0",
+		"@types/react": "^19.0.12",
+		"@typescript-eslint/parser": "^8.27.0",
+		"eslint": "^9.22.0",
+		"eslint-config-prettier": "^10.1.1",
+		"eslint-import-resolver-typescript": "^4.2.2",
+		"eslint-plugin-import": "^2.31.0",
+		"eslint-plugin-react": "^7.37.4",
+		"globals": "^16.0.0",
+		"jiti": "^2.4.2",
+		"prettier": "3.5.3",
+		"typescript-eslint": "^8.27.0"
+	}
+}

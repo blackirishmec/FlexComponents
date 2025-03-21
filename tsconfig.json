@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+	  	"target": "ES2019",
+	  	"module": "ESNext",
+	  	"lib": ["dom", "dom.iterable", "esnext"],
+	  	"moduleResolution": "node",
+	  	"outDir": "dist",
+	  	"declaration": true,
+	  	"declarationMap": true,
+	  	"skipLibCheck": true,
+	  	"strict": true,
+	  	"jsx": "react",
+	  	"esModuleInterop": true,
+	  	"forceConsistentCasingInFileNames": true
+	},
+	"include": ["src","eslint-plugin-import.d.ts"],
+	"exclude": ["node_modules", "dist"]
+}
