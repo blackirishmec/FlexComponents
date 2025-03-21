@@ -1,5 +1,5 @@
 {
-	"name": "@mike.e.coughlin/flexcomponents",
+	"name": "@mike.e.coughlin/flexcomponents-tsx",
 	"version": "1.0.1",
 	"description": "A reusable TypeScript React component library containing Flexbox layout compatible Row and Col.",
 	"main": "index.js",
