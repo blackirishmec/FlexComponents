@@ -1,10 +1,10 @@
 import React, { memo, useMemo } from 'react';
 
-import type { FlexPositionValue } from '../../types/FlexPositionValue';
+import type { FlexPositionValue } from '@/types/FlexPositionValue';
 import type { HTMLAttributes, ReactNode } from 'react';
 
-import alignItemsMap from '../../utilities/alignItemsMap';
-import justifyContentMap from '../../utilities/justifyContentMap';
+import alignItemsMap from '@/utilities/alignItemsMap';
+import justifyContentMap from '@/utilities/justifyContentMap';
 
 export interface ColProps extends HTMLAttributes<HTMLDivElement> {
 	/** The content to be rendered inside the row. */
