@@ -20,6 +20,7 @@
 	},
 	"homepage": "https://github.com/blackirishmec/FlexComponents#readme",
 	"dependencies": {
+		"@types/node": "^22.13.11",
 		"react": "^19.0.0"
 	},
 	"devDependencies": {
